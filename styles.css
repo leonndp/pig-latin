@@ -14,15 +14,36 @@ body {
 	font-size: 4rem;
 }
 
+.textboxes {
+	display:grid;
+	grid-template-columns:  repeat(auto-fit, 1fr);
+	grid-gap: 20px;
+	grid-auto-flow: row;
+}
+
 .textbox {
 	font-family: Mansalva;
 	font-size: 2rem;
-	width:500px;
 	height:300px;
 	resize:none;
-	margin: 20px;
 	border-radius:10px;
 	border:none;
 	background-color:rgba(0,0,0,0.1);
 	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
 }
+/*
+@media (max-width:710px) {
+	.textboxes {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width:500px) {
+	.title {
+		font-size:6rem;
+	}
+
+	.textboxes {
+		grid-template-rows: 1fr 1fr;
+	}
+}*/
