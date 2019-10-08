@@ -1,0 +1,28 @@
+body {
+	background-color: #7acc8f;
+	/*color:white;*/
+	font-family: Mansalva;
+}
+
+.pig-latin {
+	display:grid;
+	justify-content:center;
+}
+
+.title {
+	text-align:center;
+	font-size: 4rem;
+}
+
+.textbox {
+	font-family: Mansalva;
+	font-size: 2rem;
+	width:500px;
+	height:300px;
+	resize:none;
+	margin: 20px;
+	border-radius:10px;
+	border:none;
+	background-color:rgba(0,0,0,0.1);
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+}
